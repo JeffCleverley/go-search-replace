@@ -18,7 +18,7 @@ const (
 	replaceRe = `s:\d+:\\\"(.*?)\\\";`
 
 	badInputRe   = `\w:\d+:`
-	inputRe      = `^[A-Za-z0-9_\-\.:/]+$`
+	inputRe      = `^[A-Za-z0-9_\-\.:/\\]+$`
 	minInLength  = 4
 	minOutLength = 2
 
